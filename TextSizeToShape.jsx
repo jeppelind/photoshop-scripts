@@ -38,7 +38,7 @@ if (app.activeDocument) {
             var layer = parentGroup.layers[i];
 
             // Check if the layer is a shape layer
-            if (layer.kind == LayerKind.GRADIENTFILL || layer.kind === SOLIDFILL) {
+            if (layer.kind == LayerKind.GRADIENTFILL || layer.kind === LayerKind.SOLIDFILL) {
                 var textBounds = textLayer.bounds;
 
                 // Calculate width and height
